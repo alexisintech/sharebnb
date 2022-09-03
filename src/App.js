@@ -7,7 +7,14 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Card />
+      <Card 
+        img="../imgs/poetry-picnic.jpg"
+        rating="5.0"
+        reviewCount={6}
+        country="USA"
+        title="Poetry Picnic"
+        price={35}
+      />
     </div>
   );
 }
