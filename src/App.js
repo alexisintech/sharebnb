@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <Hero />
       <Card 
-        img="../imgs/poetry-picnic.jpg"
+        img="poetry-picnic.jpg"
         rating="5.0"
         reviewCount={6}
         country="USA"
