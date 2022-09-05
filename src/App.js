@@ -1,20 +1,24 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Card from "./components/Card";
+import data from "./data"
 
 function App() {
+  const cards = data.map(item => {
+    return (
+        <Card
+            key={item.id}
+            {...item}
+            
+        />
+    )
+  })
+
   return (
     <div>
       <Navbar />
       <Hero />
-      <Card 
-        img="poetry-picnic.jpg"
-        rating="5.0"
-        reviewCount={6}
-        country="USA"
-        title="Poetry Picnic"
-        price={35}
-      />
+      {cards}
     </div>
   );
 }

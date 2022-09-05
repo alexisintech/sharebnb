@@ -1,41 +1,41 @@
 export default [
   {
       id: 1,
-      title: "Life Lessons with Katie Zaferes",
-      description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
-      price: 136,
-      coverImg: "katie-zaferes.png",
+      title: "Poetry Picnic",
+      description: "Join fellow poetry lovers for a picnic in the calming gardens. Quaint picnic set ups decorated with flowers, wine, charcuterie boards are ready to host beautiful works of art from your favourite poets.",
+      price: 55,
+      coverImg: "poetry-picnic.jpg",
       stats: {
           rating: 5.0,
           reviewCount: 6
       },
-      location: "Online",
+      location: "Garden",
       openSpots: 0,
   },
   {
       id: 2,
-      title: "Learn Wedding Photography",
-      description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
-      price: 125,
-      coverImg: "wedding-photography.png",
+      title: "Coding Cafe",
+      description: "Meet us in the Coding Cafe to join us for pair programming. Delicious teas, coffees, and sweet treats will be provided!",
+      price: 20,
+      coverImg: "tech-meetup.jpg",
       stats: {
           rating: 5.0,
           reviewCount: 30
       },
-      location: "Online",
+      location: "Cafe",
       openSpots: 27,
   },
   {
       id: 3,
-      title: "Group Mountain Biking",
-      description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
+      title: "Move with purpose",
+      description: "Join us in moving with purpose, where we stretch and use yoga to heal our bodies. Sound bowls, gongs, and high frequency sounds will be accompany your experience. All are welcome; we are here for you.",
       price: 50,
-      coverImg: "mountain-bike.png",
+      coverImg: "yoga.jpg",
       stats: {
           rating: 4.8,
           reviewCount: 2
       },
-      location: "Norway",
+      location: "Park",
       openSpots: 3,
   }
 ]
