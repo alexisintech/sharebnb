@@ -7,9 +7,8 @@ function App() {
   const cards = data.map(item => {
     return (
         <Card
-            key={item.id}
-            {...item}
-            
+            key={item.id} // a component needs a key - in this case, we assigned arbritary id numbers to each item
+            {...item} // spread syntax creates a prop for each property of the object. so, price={item.price} , location={item.location}
         />
     )
   })
@@ -18,7 +17,9 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      {cards}
+      <section className="cards-list">
+        {cards}
+      </section>
     </div>
   );
 }
