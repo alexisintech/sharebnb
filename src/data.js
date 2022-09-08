@@ -1,4 +1,4 @@
-export default [
+exports.data = [
   {
       id: 1,
       title: "Poetry Picnic",
